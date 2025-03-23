@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Countries Website</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="countries-section">
+        <h1>Countries To Visit</h1>
+        <ol type="i">
+            <li>Germany</li>
+            <li>Singapore</li>
+            <li>Japan</li>
+            <li>South Korea</li>
+            <li>Spain</li>
+        </ol>
+    </div>
+
+    <div id="germany-section">
+        <h2>Beautiful Germany</h2>
+        <img src="https://images.pexels.com/photos/12105656/pexels-photo-12105656.jpeg" alt="Germany city" class="styled-image">
+        <img src="https://images.pexels.com/photos/20347993/pexels-photo-20347993.jpeg" class="styled-image">
+        <img src="https://images.pexels.com/photos/19297652/pexels-photo-19297652.jpeg" class="styled-image">
+    </div>
+
+    <div class="table-section">
+        <h2>My Travelling Group</h2>
+        <table>
+            <caption>Members</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Brian Richard</td>
+                    <td>00100</td>
+                    <td>0795594142</td>
+                    <td>brianarichard14@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Brian Richard</td>
+                    <td>00100</td>
+                    <td>0795594142</td>
+                    <td>brianarichard14@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Brian Richard</td>
+                    <td>00100</td>
+                    <td>0795594142</td>
+                    <td>brianarichard14@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Brian Richard</td>
+                    <td>00100</td>
+                    <td>0795594142</td>
+                    <td>brianarichard14@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Brian Richard</td>
+                    <td>00100</td>
+                    <td>0795594142</td>
+                    <td>brianarichard14@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="form-section">
+        <h2>Register to be part of us</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="country">Select Country:</label>
+            <select id="country" name="country" required>
+                <option value="">--Select--</option>
+                <option value="kenya">Kenya</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="south_africa">South Africa</option>
+                <option value="zimbabwe">Zimbabwe</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
